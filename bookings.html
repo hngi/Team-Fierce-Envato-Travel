@@ -1,0 +1,292 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <title>travio bookings</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light shadow p-4 mb-4 padding" id="navbar-section">
+        <a href="index.html" class="navbar-brand">
+            <h1 class="h2 my-auto">TRAVIO</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-nowrap ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Destination</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <form>
+                <div class="row">
+                    <div class="col-10 p-0">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+                            aria-describedby="basic-addon1" id="search-bar" />
+                    </div>
+                    <div class="col-2 p-0">
+                        <button class="btn" id="search">
+                            <i class="fas fa-search" id="search-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- SECOND ROW OF THE PAGE WHERE HOT DESTINATIONS ARE DISPLAYED -->
+    <div class="jumbotron bg-primary">
+        <div class="row">
+            <div class="col-lg-3">
+                <p>
+                    Dont listen to what they say. Go see
+                </p>
+                <button class="btn btn-light bookbtn">Book now</button>
+            </div>
+            <div class="col-lg-3">
+                <img class='hotsite' src="./image/Benguerra-Lodge-Benguerra-Island-Mozambique.jpg"
+                    alt="Benguerra-Lodge-Benguerra-Island-Mozambique">
+            </div>
+            <div class="col-lg-3">
+                <img class='hotsite  eiffel-tower'
+                    src="./image/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" alt="eiffel tower">
+            </div>
+            <div class="col-lg-3">
+                <img class='hotsite golden-eye' src="./image/191220122802-05-2020-destinations-jamaica-golden-eye.jpg"
+                    alt="jamaica golden eye">
+            </div>
+        </div>
+    </div>
+    <!-- HOT DEALS -->
+    <div class="container-fluid deals">
+        <p>PACK AND GO______</p>
+        <b>Awesome Travels</b>
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="card hotdeals">
+                    <img src="./image/Benguerra-Lodge-Benguerra-Island-Mozambique.jpg" class='card-img-top'>
+                    <div class="card-block">
+                        <b class="card-title">$300 4 Days 2 nights </b>
+                        <P>The best nights and days in an amazing city in Malta.The sight to behold is a life
+                            changing memory</P>
+                        <button class="btn  ">Book now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card  hotdeals">
+                    <img src="./image/191220122802-05-2020-destinations-jamaica-golden-eye.jpg" class='card-img-top'>
+                    <div class="card-block">
+                        <b class="card-title">$400 5 Days 2 nights </b>
+                        <P>The best nights and days in an amazing city in Mozambique.The sight to behold is a life
+                            changing memory</P>
+                        <button class="btn  ">Book now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card hotdeals ">
+                    <img src="./image/cLQGYxE3haaxqdwjhBAykYpu.jpeg" class='card-img-top'>
+                    <div class="card-block">
+                        <b class="card-title">$800 7 Days 5 nights </b>
+                        <P>The best nights and days in an amazing city in Bali.The sight to behold is a life
+                            changing memory</P>
+                        <button class="btn  ">Book now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mini container for a gray area -->
+    <div class="container-fluid more">
+        <button disabled="disabled " class='morebtn'>More Travels</button>
+    </div>
+    <!-- ANOTHER FLUID CONTAINER SHOWING WHAT TRAVIO OFFERS -->
+    <div class="container-fluid offers">
+        <p>BE BORN AGAIN_______</p>
+        <div class="row">
+            <div class="col-md-5">
+                <div>
+                    <h3>WE ARE TRAVIO</h3>
+                    <p>
+                        connecting worlds is a but seized opportunity that we serve up
+                    </p>
+                    <p>
+                        we have an amazing team that work round the clock to create magic
+                    </p>
+                    <p>
+                        come be part of out historic heritage lets crate magic with you
+                    </p>
+                </div>
+                <div>
+                    <div>
+                        <b>
+                            We offer daily travels
+                        </b>
+                        <p>
+                            come be part of out historic heritage lets crate magic with you
+                        </p>
+                    </div>
+                    <div>
+                        <b>
+                            +246 premium city tours
+                        </b>
+                        <p>
+                            come be part of out historic heritage lets crate magic with you
+                        </p>
+                    </div>
+                    <div>
+                        <b>
+                            travel managers
+                        </b>
+                        <p>
+                            come be part of out historic heritage lets crate magic with you
+                        </p>
+                    </div>
+                    <div>
+                        <b>
+                            5 star accomodation
+                        </b>
+                        <p>
+                            come be part of out historic heritage lets crate magic with you
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <b>NEXT STOP</b>
+                <p>Dubrownik,Croatia</p>
+                <p>This is the heritage of Croatia</p>
+                <p>This is life</p>
+                <button class="btn btn-primary">Book Now</button>
+            </div>
+            <div class="col-md-5">
+                <img src="./image/cLQGYxE3haaxqdwjhBAykYpu.jpeg" alt="" class="image" />
+            </div>
+        </div>
+    </div>
+    <!-- TESTIMONIALS -->
+    <div class="container-fluid testimonies">
+        <p>RELAX AND ENJOY______</p>
+        <b>Happy Travelers</b>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card-block">
+                    <p>"This journey made me see the other side.i could see the world through Travio's eyes"</p>
+                    <b>Fabio Aurellio <i><img src="./image/1200px-Flag_of_Brazil.svg.png" class="flag" /> </i></b>
+                </div>
+                <img src="./image/pexels-photo-1866828.jpeg" class='card-img-bottom'>
+            </div>
+            <div class="col-md-6">
+                <div class="card-block">
+                    <p>"Travio made me love senegal and also see beautiful tourists I could see happiness in people's
+                        eyes"</p>
+                    <b>Sadio Mane <i><img src="./image/flag-of-senegal.jpg" class="flag" /> </i></b>
+                </div>
+                <img src="./image/Michael-Jordans-Short-Haircut-1-1.jpg" class='card-img-bottom'>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 jumbotron bg-light">
+                ronnn
+            </div>
+            <div class="col-md-2">
+                <img src="./image/freestock_10712263.jpg" class="happy-man">
+            </div>
+            <div class="col-md-5">
+                <button class="btn btn-primary">CONNECT WITH US</button>
+                <div>
+                    <b>Sign up</b>
+                    <p>Let us take you to your dream destinations</p>
+                </div>
+                <div>
+                    <b>Join Trip</b>
+                    <p>You do not have where to go? We already have a trip</p>
+                </div>
+                <div>
+                    <b>Share Memories</b>
+                    <p>What is a journey without it's memories</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="mt-5 py-4" id="main-footer">
+        <div class="container-fluid padding">
+            <div class="row text-center text-nowrap">
+                <div class="col-12 col-md align-self-end">
+                    <h2 id="footer-head" class="text-md-left">TRAVIO</h2>
+                    <div class="text-md-left" id="icon-div">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="col-12 col-md align-self-end">
+                    <h5>SERVICES</h5>
+                    <p><a href="#">Tourism</a></p>
+                    <p><a href="#">Insurance</a></p>
+                    <p><a href="#">Agency</a></p>
+                </div>
+                <div class="col-12 col-md align-self-end">
+                    <h5>ABOUT US</h5>
+                    <p><a href="#">Plan Your Trip</a></p>
+                    <p><a href="#">Activities</a></p>
+                    <p><a href="#">Media Center</a></p>
+                </div>
+                <div class="col-12 col-md align-self-end">
+                    <h5>PAGE SITE</h5>
+                    <p><a href="#">Articles</a></p>
+                    <p><a href="#">Accommodation</a></p>
+                    <p><a href="#">Culture</a></p>
+                </div>
+                <div class="col-12 col-md align-self-end">
+                    <h5>HOT LINKS</h5>
+                    <p><a href="#">Our Vision</a></p>
+                    <p><a href="#">Our Mission</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <p class="text-center py-3 my-0" id="copyright">
+        &copy; 2020 Travio. All rights reserved
+    </p>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
