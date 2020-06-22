@@ -43,20 +43,31 @@ li {
 .hotsite{
 width:20rem;
 border-radius:7px;
+margin-left: 10px ;
 }
-
+.hotsite-container{
+  background-color:#443DF5; 
+}
 .eiffel-tower{
-height: 20rem;
-
-}
+  height: 20rem;
+  width: 18rem;
+  }
 .golden-eye{
-  margin-top: 9rem;
-}
-.bookbtn{
+    margin-top: 9rem;
+    padding: 1rem;
+  }
+.book-btn{
   color: #000;
   background-color: aliceblue;
   border-radius: 20px;
   font-weight: bolder;
+  margin: 2rem;
+}
+.bookbtn{
+  background-color: #443DF5;
+  border-radius: 25px;
+  color: aliceblue;
+  font-weight: bold;
 }
 
 .happy-man{
@@ -69,12 +80,14 @@ height: 14rem
 }
 .hotdeals{
   border: none;
-  box-shadow: 0 4px 2px 2px rgb(185, 182, 182)
 }
+
 
 /* STYLING FOR THE GRAY AREA JUST BELOW THE HOT DEALS */
 .more{
-  background-color: rgb(182, 182, 180);
+  background-color:rgb(219, 219, 201) ;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   height: 5rem;
   justify-content: center;
   align-items: center;
@@ -97,7 +110,13 @@ height: 14rem
   height: 5rem;
 }
 .testimonies{
-  background-color:rgb(182, 182, 180) ;
+  background-color:rgb(219, 219, 201) ;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 6rem;
+}
+.testimony-card{
+  height: 8rem;
 }
 /*SIMPLE STYLES FOR THE FOOTER */
 footer {
@@ -145,3 +164,48 @@ footer p {
   color: white;
   font-size: 80%;
 }
+/* FANCY TEXT */
+.fancy-text{
+  color: #443DF5;
+}
+/* MEDIA QUERIES TO IMPROVE SITE RESPONSIVENESS */
+@media (max-width: 800px) {
+  
+.image {
+  border-radius: 10px;
+}
+.hotsite{
+width:20rem;
+border-radius:7px;
+margin-left: 10px ;
+}
+.hotsite-container{
+  background-color:#443DF5; 
+}
+
+ .eiffel-tower{
+  width:20rem;
+  border-radius:7px;
+  margin-left: 10px ;
+  margin-top: 3rem;
+  padding: 0rem;
+
+  }
+  .golden-eye{
+    width:20rem;
+  border-radius:7px;
+  margin-top: 3rem;
+  padding: 0rem;
+  }
+  .testimony-card{
+    height: 8rem;
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 360px) and (min-width: 800px){
+  .testimony-card{
+    height: 8rem;
+    margin-top: 4rem;
+  }
+}
+  
